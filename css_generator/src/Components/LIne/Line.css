@@ -1,0 +1,8 @@
+.line-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.line-container input {
+    padding: 10px 0px;
+}
