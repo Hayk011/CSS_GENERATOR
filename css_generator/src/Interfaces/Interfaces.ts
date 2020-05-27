@@ -3,14 +3,15 @@ export interface IGenerate {
     name: string;
 }
 export interface IInputs {
-    range?: number
-    reversLine?: boolean
+    lineRange?: number
+    reversLine?: boolean;
+    borderRange?: number;
+    reversBorder?: boolean
 }
 
 export interface ILieProps{
     setInputs: (e: any) => void
-    inputs: IInputs
-    style: React.CSSProperties;
+    inputs: IInputs;
     fild: string;
 }
 

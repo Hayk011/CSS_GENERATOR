@@ -1,8 +1,27 @@
-.line-container{
+.line-container,
+.border-container{
     display: flex;
     flex-direction: column;
     padding: 5px;
 }
 .line-container input {
     padding: 10px 0px;
+    cursor: pointer;
+}
+.html_value {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid;
+    height: 100px;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+.input-reversed:after{
+    content: "Reversed";
+    font-family: 'Roboto', sans-serif;
+    margin-left: 17px;
+    font-size: 15px;
 }
